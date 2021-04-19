@@ -1,0 +1,451 @@
+html {
+	font-size: 10px;
+	line-height: 1.6;
+	width: 100%;
+	height: 100%;	
+}
+/*margin auto 0 removes default css that come with some browsers*/
+body {
+  background-color: #FBFBFD;
+  margin: auto 0;
+  color: #2B2A3B;
+  font-family: 'Montserrat', sans-serif;
+}
+h1, h2, h3, h4, p {
+	margin: 0;
+}
+.btn {
+	border: none ;
+	border-radius: 3px;
+	color: white;
+	padding: 14px 28px;
+	font-size: 1.6rem;
+	cursor: pointer;
+	background-color: #19aa06;
+}
+
+/* NAV BUILD */
+/* -----------------------TOP BAR WITH LOGO LEFT AND BURGER MENU RIGHT */
+.mobile-top {
+    display: flex;
+    align-items: center;
+    padding: 5px 20px;
+}
+.mobile-top img {
+    display: flex;
+    width: 220px;
+}
+
+/* Hiding logo when burger menu/mobile is active */
+.push{
+    display: none;
+}
+
+/*Container holding nav links -JAVA SCRIPT APPLIED HERE */
+.main-menu {
+    display: none;
+    background-color: #FBFBFD;
+    padding: 10px;
+    color: #003366;
+    box-sizing: border-box;   
+}
+.main-menu a {
+    display: block;
+    color: #003366;
+    padding: 8px 20px;
+    font-size: 16px;
+    text-decoration: none; 
+}
+.main-menu a:hover {
+    display: block;
+    background-color: #003366;
+    color: #FBFBFD;
+    -webkit-transition: background-color 0.6s ease-out, color 0.6s ease-out;
+    -moz-transition: background-color 0.6s ease-out, color 0.6s ease-out;
+    -o-transition: background-color 0.6s ease-out, color 0.6s ease-out;
+    transition: background-color 0.6 ease-out, color 0.6s ease-out;
+}
+
+
+
+
+
+
+#ham-button {
+    display: block;
+    background-color: #FBFBFD;
+    color: #051f3a;
+    font-size: 40px;
+    border: none;
+    margin-left: auto; 
+    justify-self: center;
+    align-self: center;
+}
+
+
+
+
+
+/* NAV BUILD END */
+
+/*-------------------------------------ALL ABOVE APPLY SITEWIDE */
+
+/* MOBILE FIRST DESIGN */
+/* -----------------------------------------------------MOBILE COVER */
+.cover-grid {
+    display: flex;
+    /* height: 50vh; */
+    background: url("graphic\ design\ logo\ center.jpg") no-repeat center;
+    background-size: cover;
+    padding-bottom: 20px;
+    color: white; 
+}
+.cover-items h1 {
+    font-size: 30px;
+}    
+.cover-items h2 {
+    font-size: 18px;
+}    
+.btn {
+    font-size: 16px;   
+}
+.cover-items {
+    color: white;
+    justify-self: center;
+    align-self: center;
+    padding: 60px 20px 30px 20px;
+}
+/* -----------------------------------------------------MOBILE BELOW COVER */
+.below-cover-section-product {
+    font-size: 25px;
+    color: #003366;
+    background-color: #FBFBFD;
+}
+.below-cover-section-product p {
+    font-size: 20px;
+}
+.below-cover-section-grid {
+    display: block;
+}
+.below-cover-grid-item-1 {
+    padding: 30px 20px 5px 20px;
+}
+.below-cover-grid-item-1 h3 {
+    padding-bottom: 10px;
+}
+.below-cover-grid-item-2 {
+    padding: 0 20px;
+    align-self: center;    
+}
+.below-cover-grid-item-2 img {
+    height: 300px;
+    width: 100%;
+}
+/* -----------------------------------------------------MOBILE BELOW COVER GRID CALLOUT */
+
+/* -----------------------------------------------------MOBILE PRODUCT SECTION */
+.product-section-title {
+    font-size: 30px;
+    color: #FBFBFD;
+    padding: 30px 20px;
+    background-color: #06284b;
+}
+.product-section-title p {
+    font-size: 20px; 
+}
+.product-section-grid {
+    display: block;
+    padding: 30px 20px;
+}
+.product-section-grid-background-color-swap {
+    background-color: #eaebf3fb;
+}
+.product-section-title-group-item {
+    font-size: 25px;
+    font-weight: 600;
+    color: #06284b;    
+}
+.product-section-title-group-item img {
+    height: auto;
+    width: 50px;
+    padding-right: 20px;
+}
+.product-section-body-text-item {
+    font-size: 18px;
+    font-weight: 600;
+    padding-bottom: 10px;    
+}
+.product-section-list-item {
+    font-size: 18px;
+}
+.product-section-list-item li {
+	list-style-image: url('check-light.svg');
+    padding-left: 0;
+}
+.product-section-list-item ul {	
+    padding-left: 20px;
+}
+
+/* -----------------------------------------------------MOBILE FOOTER */
+.footer-container {
+    background-color: #06284b;
+    border-top: 10px solid #051f3a;
+    margin-top: 50px;
+}
+.footer-grid {
+    display: block;
+    text-align: center;
+    padding: 20px 100px 50px 100px;
+}
+.footer-title {
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    padding: 30px 0 10px 0;
+    border-bottom: 2px solid #19aa06;
+    text-align: center;
+}
+.nav-list-style {
+    padding-left: 0;     
+}
+.nav-list-style li {
+	padding: 5px;
+}    
+.nav-list-style a {
+	text-decoration: none;
+	color: #FBFBFD;
+	font-size: 1.6rem;	
+}
+footer {
+    display: flex;
+	justify-content: center;
+	text-align: center;
+	color: white;
+	font-size: 1.6rem;
+	background-color:  #051f3a;
+	border-bottom: 10px solid #06284b;
+	padding: 10px 0; 
+}
+/* --------------------------------------------------------DESKTOP VERSION */
+/* --------------------------------------------------------DESKTOP COVER */
+@media only screen and (min-width: 768px) {
+/*------------------------------------------------------------DESKTOP NAV  */
+  #ham-button { 
+    display: none;
+  }
+        
+  .main-menu {
+    display: flex;
+    padding: 0px 20px;
+} 
+
+.main-menu a {
+    font-size: 20px;
+    padding: 30px 20px;
+    font-weight: 600;
+
+
+} 
+
+.push { 
+    display: flex;
+    margin-right: auto;
+}
+
+.push img { 
+    width: 220px; 
+}
+
+.mobile-top {
+    display: none;
+}
+    
+/*-------------------------------------------------------------DESKTOP COVER  */
+    .cover-items h1 {
+        font-size: 40px;
+    }
+    .cover-items h2 {
+        font-size: 20px;
+    }
+/* -----------------------------------------------------DESKTOP BELOW COVER */
+        
+    .below-cover-section-grid {
+        display: grid;
+        grid-template-columns: 1.5fr 1fr;
+        padding: 30px 20px 0 20px ;
+
+    }    
+    .below-cover-grid-item-1 {
+        grid-column: 1;
+        justify-self: center;
+        align-self: center;
+        padding: 0;
+    }
+    .below-cover-grid-item-1 h3 {
+        font-size: 30px;
+    }
+    .below-cover-grid-item-1 p {
+        font-size: 25px;
+    }
+    
+    .below-cover-grid-item-2 {
+        grid-column: 2;
+        justify-self: center;
+        align-self: center;  
+    }
+    .below-cover-grid-item-2 img {
+        height: auto;
+        width: 350px;
+        background-color: #FBFBFD;
+    }
+    
+        
+    
+/* -----------------------------------------------------DESKTOP BELOW COVER CALLOUT */ 
+    
+
+/* -----------------------------------------------------DESKTOP PRODUCT SECTION */
+    .product-section-title {
+        text-align: ;
+        padding: 50px 20px;
+    }
+    
+
+    .product-section-grid {
+        display: grid;
+        
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: 1fr;
+        padding: 50px 20px;   
+    }
+    .product-section-title-group-item {
+        display: flex;
+        grid-column: 1;
+        font-size: 30px;
+        padding-right: 20px;  
+    } 
+    .product-section-body-text-item {
+        grid-column: 2;
+        font-size: 25px;
+        font-weight: 600;
+        padding-left: 20px;
+    }
+    .product-section-list-item {
+        grid-column: 2;
+        grid-row: 2;
+        font-size: 20px;
+        padding-left: 20px;
+    }
+/* -----------------------------------------------------MOBILE FOOTER */
+    .footer-grid {
+        display: grid;
+        gap: 50px;
+        text-align: left;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .footer-title {
+        text-align: left;
+    }
+
+    .footer-grid-brand-item {
+        grid-column: 1;
+    }
+    .footer-grid-who-we-are-item {
+        grid-column: 2;
+    }
+    .footer-grid-what-we-offer-item {
+        grid-column: 3;
+    }
+}
+
+@media only screen and (min-width: 1700px) {
+    #ham-button { 
+        display: none;
+      }
+            
+      #side-menu {
+        display: flex;
+    } 
+    
+    .main-menu {
+        display: flex;
+        padding: 0 200px 0 200px;
+    } 
+    
+   
+
+
+
+    .cover-grid {
+        padding: 50px 200px;
+    }
+    .cover-items {
+        padding: 0;
+    }
+    .cover-items h1 {
+        font-size: 50px;
+    }    
+    .cover-items h2 {
+        font-size: 30px;
+    }
+    .btn {
+        font-size: 24px;   
+    }
+    /* -----------------------------------------------------BIG SCREEN BELOW COVER */
+    .below-cover-section-grid {
+        padding: 50px 200px;
+    }
+    .below-cover-grid-item-1 h3 {
+        font-size: 40px;
+    }
+    .below-cover-grid-item-1 p {
+        font-size: 30px;
+    }    
+    .below-cover-grid-item-2 img {
+        height: auto;
+        width: 500px;
+    }
+
+
+
+
+/* -----------------------------------------------------BIG SCREEN BELOW COVER CALLOUT */ 
+    /* .below-cover-callout {
+        display: none;
+        padding: 50px 100px;
+    }
+    .below-cover-callout p {
+        font-size: 30px;
+    }
+      */
+/* -----------------------------------------------------BIG SCREEN PRODUCT SECTION */
+    .product-section-title {
+        font-size: 40px;
+        padding: 80px 0;
+        text-align: left;
+        background-color: #06284b;
+        color: #FBFBFD;
+        padding: 100px 200px;
+    }
+    .product-section-title p {
+        font-size: 30px;
+    }
+    .product-section-grid {
+        font-size: 40px;
+        padding: 50px 200px;
+    }
+    .product-section-grid-title {
+        font-size: 40px;
+        padding: 30px 0;
+    }
+    .product-section-grid-body-text {
+        font-size: 20px;  
+        padding-bottom: 10px ;
+    }
+    .product-section-grid-list li {
+        font-size: 20px;  
+    }
+    .footer-grid {
+        padding: 20px 200px 50px 200px;
+    }
+}   
